@@ -1,0 +1,11 @@
+.mecheer {
+	text-align:center; /* Align center inline elements */
+	font: 0/0 a; /* Hide the characters like spaces */
+}
+
+.mecheer:before {
+	content: ' ';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
