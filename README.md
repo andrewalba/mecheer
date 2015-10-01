@@ -9,7 +9,7 @@ jQuery plugin that Makes Every Container Height Equal Each Row.
 
 ### Demos
 See what MECHEER in action:
-* [Mulitple Image Panels in Multiple rows](http://andrewalba.github.io/mecheer/)
+* [Mulitple Image Panels in Multiple rows](http://andrewalba.github.io/mecheer/#mecheer)
 * More to follow
 
 ## How To Use ##
@@ -50,7 +50,7 @@ You don't need any special markup. All you need is to add a class to each contai
 ### 3. Call the MECHEER plugin
 Just initialize the plugin using `$(window).load();` jQuery method and watch the rows resize.
 
-```html
+```javascript
 $(window).load(function() {
 	$('.frizzle').mecheer();
 });
